@@ -1,0 +1,44 @@
+body
+{
+	margin: 2%;
+	padding: 2%;
+	background: #666;
+	color: #FFF;
+	font-size: 16px;
+	font-family: Tahoma;
+}
+h1
+{
+	margin: 0;
+	font-size:2rem;
+	
+}
+h2
+{
+	font-size:1.2rem;
+	padding:1%;
+}
+div, span
+{
+	background:green;
+	margin:1%;
+	padding:1%;
+	display:black;
+}
+div p
+{
+	min-height:10px;
+	min-width: 100px;
+	margin: 1%;
+}
+p
+{
+	margin-bottom: 30rem;
+}
+nav a
+{
+	color: #FFF;
+	padding:1%;
+	margin:1%;
+	background: orange;
+}

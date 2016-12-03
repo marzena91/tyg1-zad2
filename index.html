@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous">
+  	</script>
+  	<script type="text/javascript" src="scripts.js" ></script>
+		<title>Selektory w jQuery Marzena Świerska</title>
+	</head>
+	
+	<body>
+		<header><h1>Tydzień 1, zadanie 2</h1></header>
+		
+		<h2>a) wszystkie elementy div, posiadające zarówno klasę “grid” oraz klasę “grid-12”.</h2>
+		
+		<div class="grid grid-12">klasa grid klasa grid-12</div>
+		<div class="grid">klasa grid</div>
+		<div class="grid grid-12">klasa grid klasa grid-12</div>
+		<div class="grid">klasa grid</div>
+		<div class="grid grid-12">klasa grid klasa grid-12</div>
+		<div class="grid grid-12">klasa grid klasa grid-12</div>
+		
+		<h2>b) wszystkie elementy a, których atrybut “href" zaczyna się na “http”, znajdujące się w elemencie o klasie “nav”</h2>
+		<nav class="nav">
+			<a href="http://blog.rosedesign.pl/">blog</a>
+			<a href="http://webkod.pl/">Kurs</a>
+			<a href="www.eduweb.pl"/>Eduweb</a>
+			<a href="http://stackoverflow.com/">Forum</a>
+			<a href="www.daneden.github.io/animate.css/">CSS</a>
+		</nav>
+		
+		<h2>c) wszystkie elementy imput, których typ to “radio” lub “checkbox” oraz dodatkowo nie są aktualnie zaznaczone (checked)</h2>
+		<input type="text" name="">
+		<input type="radio" name="">
+		<input type="radio" name="">
+		<input type="checkbox" name="">
+		<input type="checkbox" name="">
+
+
+		<h2>d) wyłącznie pierwszy element &ltp&gt, który jest pusty (nie zawiera dzieci) oraz znajduje się w elemencie &ltdiv&gt z identyfikatorem “text”</h2>
+		<div id="text">
+			<p> </p>
+			<p>
+				<span>Jakiś tekst</span>
+			</p>
+			
+			<p> </p>
+		</div>
+		<div>
+			<p>
+				<span>Jakiś tekst</span>
+			</p>
+			<p>
+				<span>Jakiś tekst</span>
+			</p>
+			<p> </p>
+			
+		</div>
+
+
+		<h2>e) wszystkie elementy z klasą “pagination-item”, które nie są elementem span</h2>
+		<div class="pagination-item">1</div>
+		<div class="pagination-item">2</div>
+		<span class="pagination-item">3</span>
+		<div class="pagination-item">4</div>
+		<div class="pagination-item">5</div>
+		<span class="pagination-item">6</span>
+
+	</body>
+	
+</html>
